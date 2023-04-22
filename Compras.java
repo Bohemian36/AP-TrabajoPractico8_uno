@@ -8,9 +8,9 @@ import java.util.Iterator;
    public abstract class Compras {
        public static void main(String[] args) throws IOException {
 		
-          Producto uno = new Producto("Jugo de naranja",150,001);
+           Producto uno = new Producto("Jugo de naranja",150,001);
            Producto dos = new Producto("Harina para pizza",350,002);
-          Producto tres = new Producto("Lata de tomate",245.50,003);
+           Producto tres = new Producto("Lata de tomate",245.50,003);
            Producto cuatro = new Producto("Queso cremoso",1250.60,004);
            Producto cinco = new Producto("Oregano",314.70,005);
            Producto seis = new Producto("Condimento",160.80,006);
@@ -46,4 +46,3 @@ import java.util.Iterator;
        }
    }
  }
-   
