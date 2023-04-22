@@ -1,14 +1,14 @@
 package pack1;
 
-public class Carrito {
-    	private int num;
-	    private Pers cliente;
-	    private double montoTotal;
+    public class Carrito {
+    	  private int num;
+	  private Pers cliente;
+	  private double montoTotal;
 	
 	  public Carrito(Pers cli, int num) {
 	    	this.num = num;
-		    cliente = cli;
-		    montoTotal = 0;
+	        cliente = cli;
+		montoTotal = 0;
 	}
 	  public int Num() {
 	    	return num;
