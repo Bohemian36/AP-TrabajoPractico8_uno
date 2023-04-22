@@ -14,9 +14,9 @@ public class Carrito {
 	    	return num;
 	}
 	  public double MontoTotal() {
-		    return montoTotal;
+		return montoTotal;
 	}
-  	public void sumarMonto(ItemCarrito subTotal) {
+  	  public void sumarMonto(ItemCarrito subTotal) {
 	    	montoTotal = montoTotal + subTotal.SubTotal();
 	}
 }
