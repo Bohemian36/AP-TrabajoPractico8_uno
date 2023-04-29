@@ -12,7 +12,7 @@ import java.util.Iterator;
            Producto dos = new Producto("Harina para pizza",350,002);
            Producto tres = new Producto("Lata de tomate",245.50,003);
            Producto cuatro = new Producto("Queso cremoso",1250.60,004);
-           Producto cinco = new Producto("Oregano",314.70,005);
+           Producto cinco = new Producto("Orégano",314.70,005);
            Producto seis = new Producto("Condimento",160.80,006);
            
           Pers c1 = new Pers("Frodo Bolsón");
